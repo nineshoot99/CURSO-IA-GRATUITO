@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Gratuito de Inteligencia Artificial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+        }
+        .course-tab.active {
+            background-color: #3b82f6;
+            color: #ffffff;
+            border-color: #3b82f6;
+        }
+        .course-tab.inactive {
+            background-color: #ffffff;
+            color: #374151;
+            border-color: #d1d5db;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+        
+        <!-- Selector de Curso -->
+        <div class="mb-8">
+            <div class="flex border border-gray-300 rounded-lg p-1 max-w-md mx-auto bg-gray-100">
+                <button id="tab-50h" class="course-tab active w-1/2 p-2 rounded-md font-semibold transition-colors duration-200">
+                    Trabajadores (50h)
+                </button>
+                <button id="tab-150h" class="course-tab inactive w-1/2 p-2 rounded-md font-semibold transition-colors duration-200">
+                    Altos Cargos (150h)
+                </button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
+            
+            <!-- Contenido Principal del Blog -->
+            <main class="lg:col-span-2">
+                
+                <!-- Contenido Curso 50h -->
+                <div id="content-50h" class="course-content">
+                    <article class="bg-white p-6 sm:p-8 rounded-lg shadow-md">
+                        <header class="mb-6 border-b pb-4">
+                            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">La Revolución de la IA ya está aquí, y tu formación es gratuita</h1>
+                            <p class="mt-2 text-sm text-gray-500">Publicado el 25 de agosto de 2025</p>
+                        </header>
+                        
+                        <div class="prose prose-lg max-w-none text-gray-700 space-y-6">
+                            <p>La Inteligencia Artificial ha dejado de ser una tecnología del futuro para convertirse en una herramienta esencial del presente. Empresas y profesionales de todos los sectores están descubriendo cómo la IA puede automatizar tareas, optimizar procesos y abrir nuevas oportunidades de negocio. La pregunta ya no es si debes aprender sobre IA, sino cuándo. Y la respuesta es: ahora, y sin que te cueste nada.</p>
+                            <p class="mt-4 p-4 bg-gray-50 rounded-lg text-gray-600">Aunque la formación es principalmente online para ofrecerte la máxima flexibilidad, cualquier actividad que requiera asistencia presencial (como talleres o mentorías) se te comunicará con antelación, indicando el centro y horario específico en tu localidad o provincia.</p>
+                            
+                            <h2 class="font-semibold text-2xl text-gray-800 pt-4">¿Qué significa que el curso es "100% Subvencionado"?</h2>
+                            <p>Gracias a las iniciativas de formación para el empleo, este curso de vanguardia es completamente gratuito para ti si eres trabajador en activo (dado de alta en la Seguridad Social) o autónomo en España. No hay trucos ni letra pequeña. Es una inversión directa del Estado en tu futuro profesional, diseñada para aumentar la competitividad del tejido empresarial del país.</p>
+                            <div class="mt-4 bg-gray-100 p-4 rounded-lg border-l-4 border-blue-500">
+                                <p class="text-sm text-gray-800">Este programa está financiado por la <strong>Unión Europea - NextGenerationEU</strong>, con la colaboración de la <strong>EOI: Escuela de Organización Industrial</strong> y el <strong>Plan de Recuperación, Transformación y Resiliencia</strong>.</p>
+                            </div>
+
+                            <h2 class="font-semibold text-2xl text-gray-800 pt-4">¿A quién va dirigido este curso?</h2>
+                            <p>Esta formación está pensada para profesionales que quieren entender y aplicar la IA en su día a día. <strong>Pueden realizarlo todos los trabajadores de una empresa sin límite de plazas</strong>. Es ideal para:</p>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li><strong>Autónomos y Freelancers</strong> que buscan optimizar su tiempo y ofrecer servicios más innovadores.</li>
+                                <li><strong>Empleados de Pymes</strong> de áreas como marketing, administración, ventas o recursos humanos.</li>
+                                <li><strong>Gerentes y Jefes de Equipo</strong> que necesitan entender el potencial de la IA para liderar la transformación en sus empresas.</li>
+                            </ul>
+
+                            <h2 class="font-semibold text-2xl text-gray-800 pt-4">¿Qué aprenderás? Un enfoque 100% práctico</h2>
+                            <p>El temario está diseñado para darte una visión 360º de la digitalización y la aplicación de la IA en el entorno empresarial actual. Consta de 6 temas clave:</p>
+                            <ol class="list-decimal pl-5 space-y-2 font-medium">
+                                <li>La empresa en la economía digital.</li>
+                                <li>Atracción y fidelización del cliente.</li>
+                                <li>Tecnologías para la transformación digital.</li>
+                                <li>Gestión del cambio en un contexto de transformación digital.</li>
+                                <li>Inteligencia artificial generativa a través de WhatsApp.</li>
+                                <li>Taller de entrenamiento digital: técnicas de creación eficiente de prompts en clases en directo (3 horas).</li>
+                            </ol>
+
+                            <h2 class="font-semibold text-2xl text-gray-800 pt-4">Y al finalizar, obtendrás:</h2>
+                            <p>Además del conocimiento práctico, tu compromiso se verá recompensado con herramientas y acreditaciones de alto valor para impulsar tu carrera o negocio:</p>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li><strong>1,5 horas de mentoría por Empresa:</strong> Sesiones personalizadas para resolver dudas y aplicar lo aprendido directamente en tu entorno de trabajo.</li>
+                                <li><strong>Acceso al “Netflix” de la Transformación Digital:</strong> Una plataforma con recursos continuos para que nunca dejes de aprender.</li>
+                                <li><strong>Titulación acreditada con 6 créditos ECTS:</strong> Un certificado oficial que avala tus nuevos conocimientos a nivel europeo.</li>
+                                <li><strong>Talleres Digitales de Entrenamiento:</strong> Dos sesiones prácticas para especializarte en la implementación de Chatbots y la Automatización de Procesos.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Contenido Curso 150h -->
+                <div id="content-150h" class="course-content hidden">
+                    <article class="bg-white p-6 sm:p-8 rounded-lg shadow-md">
+                        <header class="mb-6 border-b pb-4">
+                            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">Formación Estratégica en IA para Altos Cargos</h1>
+                            <p class="mt-2 text-sm text-gray-500">Publicado el 25 de agosto de 2025</p>
+                        </header>
+                        
+                        <div class="prose prose-lg max-w-none text-gray-700 space-y-6">
+                            <p>La Inteligencia Artificial ha dejado de ser una tecnología del futuro para convertirse en una herramienta esencial del presente. Empresas y profesionales de todos los sectores están descubriendo cómo la IA puede automatizar tareas, optimizar procesos y abrir nuevas oportunidades de negocio. La pregunta ya no es si debes aprender sobre IA, sino cuándo. Y la respuesta es: ahora, y sin que te cueste nada.</p>
+                            <p class="mt-4 p-4 bg-gray-50 rounded-lg text-gray-600">Aunque la formación es principalmente online para ofrecerte la máxima flexibilidad, cualquier actividad que requiera asistencia presencial (como talleres o mentorías) se te comunicará con antelación, indicando el centro y horario específico en tu localidad o provincia.</p>
+                            
+                            <h2 class="font-semibold text-2xl text-gray-800 pt-4">¿Qué significa que el curso es "100% Subvencionado"?</h2>
+                            <p>Gracias a las iniciativas de formación para el empleo, este curso de vanguardia es completamente gratuito para ti si eres trabajador en activo (dado de alta en la Seguridad Social) o autónomo en España. No hay trucos ni letra pequeña. Es una inversión directa del Estado en tu futuro profesional, diseñada para aumentar la competitividad del tejido empresarial del país.</p>
+                             <div class="mt-4 bg-gray-100 p-4 rounded-lg border-l-4 border-blue-500">
+                                <p class="text-sm text-gray-800">Este programa está financiado por la <strong>Unión Europea - NextGenerationEU</strong>, con la colaboración de la <strong>EOI: Escuela de Organización Industrial</strong> y el <strong>Plan de Recuperación, Transformación y Resiliencia</strong>.</p>
+                            </div>
+
+                            <h2 class="font-semibold text-2xl text-gray-800 pt-4">¿A quién va dirigido este curso?</h2>
+                            <p>Esta formación de alto nivel está abierta a todos los niveles de la empresa, desde trabajadores básicos hasta directivos. No obstante, está diseñada para tener el máximo impacto estratégico, por lo que la inscripción está limitada a un <strong>máximo de dos personas por empresa</strong>. Es ideal para perfiles como:</p>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li><strong>Directores Generales y Gerentes</strong> que definen la visión y estrategia de la compañía.</li>
+                                <li><strong>Responsables de Departamentos</strong> (Marketing, Operaciones, Finanzas) que buscan aplicar la IA para optimizar sus áreas.</li>
+                                <li><strong>Líderes de Proyectos de Innovación</strong> y trabajadores con alto potencial encargados de la transformación digital.</li>
+                            </ul>
+
+                            <h2 class="font-semibold text-2xl text-gray-800 pt-4">Temario del Programa Estratégico</h2>
+                            <p>Este programa se centra en la visión estratégica y la toma de decisiones, dotando a los líderes de las herramientas para guiar a sus empresas en la nueva era digital. El temario se divide en 5 módulos clave:</p>
+                            <ol class="list-decimal pl-5 space-y-2 font-medium">
+                                <li>La empresa en la economía digital.</li>
+                                <li>Transformando la experiencia del cliente.</li>
+                                <li>Habilitando tecnológicamente la transformación.</li>
+                                <li>Gestionando el cambio.</li>
+                                <li>Casos de uso sectoriales.</li>
+                            </ol>
+                            
+                            <h2 class="font-semibold text-2xl text-gray-800 pt-4">Y al finalizar, obtendrás:</h2>
+                            <p>Además del conocimiento práctico, tu compromiso se verá recompensado con herramientas y acreditaciones de alto valor para impulsar tu carrera o negocio:</p>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li><strong>10 horas de mentoría por Empresa:</strong> Sesiones personalizadas para resolver dudas y aplicar lo aprendido directamente en tu entorno de trabajo.</li>
+                                <li><strong>Acceso al “Netflix” de la Transformación Digital:</strong> Una plataforma con recursos continuos para que nunca dejes de aprender.</li>
+                                <li><strong>Titulación acreditada con 6 créditos ECTS:</strong> Un certificado oficial que avala tus nuevos conocimientos a nivel europeo.</li>
+                                <li><strong>Talleres Digitales de Entrenamiento:</strong> Dos sesiones prácticas para especializarte en la implementación de Chatbots y la Automatización de Procesos.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+            </main>
+
+            <!-- Barra Lateral -->
+            <aside class="space-y-8">
+                <div class="bg-white p-6 rounded-lg shadow-md sticky top-8">
+                    <h3 class="font-bold text-xl border-b pb-3 mb-4">Curso en Resumen</h3>
+                    <div class="space-y-4 text-sm">
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-600">Modalidad:</span>
+                            <span class="text-right">Online y Flexible</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-600">Duración:</span>
+                            <span id="sidebar-duration" class="text-right font-bold">50 horas</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-600">Coste:</span>
+                            <span class="font-bold text-green-600 text-right">GRATUITO</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-600">Requisitos:</span>
+                            <span class="text-right">Ser trabajador o autónomo en España</span>
+                        </div>
+                    </div>
+                    <a id="info-link-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIpiKuF9uRoELeB-n6ZzTT6QDp5UgL13_tGhSa8eSxx3eIeg/viewform" target="_blank" rel="noopener noreferrer" class="block text-center w-full mt-6 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200 text-lg">
+                        ¡Quiero más información!
+                    </a>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <footer class="bg-white mt-12 py-6 border-t">
+        <div class="max-w-7xl mx-auto text-center text-gray-500">
+            <p>&copy; 2025 Tu Empresa de Formación. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tab50h = document.getElementById('tab-50h');
+            const tab150h = document.getElementById('tab-150h');
+            const content50h = document.getElementById('content-50h');
+            const content150h = document.getElementById('content-150h');
+            const sidebarDuration = document.getElementById('sidebar-duration');
+            const infoLinkBtn = document.getElementById('info-link-btn');
+
+            const formUrl50h = 'https://docs.google.com/forms/d/e/1FAIpQLScIpiKuF9uRoELeB-n6ZzTT6QDp5UgL13_tGhSa8eSxx3eIeg/viewform';
+            const formUrl150h = 'https://docs.google.com/forms/d/e/1FAIpQLSec4cGEjwruCAGSRHlDc-BrOtQjE9a2MPwJGIcvq-G1Yi2sUw/viewform?usp=send_form';
+
+            function switchTab(activeTab, inactiveTab, activeContent, inactiveContent, duration, formUrl) {
+                activeTab.classList.remove('inactive');
+                activeTab.classList.add('active');
+                inactiveTab.classList.remove('active');
+                inactiveTab.classList.add('inactive');
+
+                activeContent.classList.remove('hidden');
+                inactiveContent.classList.add('hidden');
+
+                sidebarDuration.textContent = `${duration} horas`;
+                infoLinkBtn.href = formUrl;
+            }
+
+            tab50h.addEventListener('click', () => {
+                switchTab(tab50h, tab150h, content50h, content150h, 50, formUrl50h);
+            });
+
+            tab150h.addEventListener('click', () => {
+                switchTab(tab150h, tab50h, content150h, content50h, 150, formUrl150h);
+            });
+        });
+    </script>
+
+</body>
+</html>
